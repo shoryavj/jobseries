@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/shoryavijayvargiya/Desktop/updatejob/JobUpdate/JobUpdate.csproj": {}
+  },
+  "projects": {
+    "/Users/shoryavijayvargiya/Desktop/updatejob/JobUpdate/JobUpdate.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/shoryavijayvargiya/Desktop/updatejob/JobUpdate/JobUpdate.csproj",
+        "projectName": "JobUpdate",
+        "projectPath": "/Users/shoryavijayvargiya/Desktop/updatejob/JobUpdate/JobUpdate.csproj",
+        "packagesPath": "/Users/shoryavijayvargiya/.nuget/packages/",
+        "outputPath": "/Users/shoryavijayvargiya/Desktop/updatejob/JobUpdate/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/shoryavijayvargiya/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
