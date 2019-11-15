@@ -19,18 +19,18 @@ namespace JobUpdate
 //            string[] abc = args;
 
             Console.WriteLine("Heloooooo");
-            for (int i=0;i<args.Length;i++)
-            {
-//          Console.WriteLine(args[i]);
+//             for (int i=0;i<args.Length;i++)
+//             {
+// //          Console.WriteLine(args[i]);
 
-          var jsonArray = JArray.Parse(args[i]);
+//           var jsonArray = JArray.Parse(args[i]);
 
-          Console.WriteLine(jsonArray.GetType());
-          Console.WriteLine(jsonArray);
-                Console.WriteLine(jsonArray.GetType());
+//           Console.WriteLine(jsonArray.GetType());
+//           Console.WriteLine(jsonArray);
+//                 Console.WriteLine(jsonArray.GetType());
 
 
-            }
+//             }
 
             //    Console.WriteLine(jsonArray[1][0]);
             // var Content = args[0]["Content"];
